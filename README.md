@@ -13,7 +13,7 @@ Everything here is taken unmodified from dizi_eea OS3.0.303.0.WNSEUXM:
 ## Source-built kernel (Phase 6, stage a)
 
 `Image-source` is built from LineageOS android_kernel_xiaomi_sm7435 lineage-23.2
-(57dcedf23, plus the local fix ec878c862
+(57dcedf23, plus the local fix a67b9494c
 "proc: bootconfig: Keep the skip label inside its #ifdef") with plain `gki_defconfig` and the
 stock kernel's compiler, clang r416183b (`/build/alex/dizi/kernel/build-gki.sh`):
 Linux 5.10.269. Its Module.symvers matches every symbol CRC, and `module_layout`, that the 377
